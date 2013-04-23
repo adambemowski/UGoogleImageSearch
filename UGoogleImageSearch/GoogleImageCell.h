@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GoogleImageCell.h
 //  UGoogleImageSearch
 //
 //  Created by Adam Bemowski on 4/21/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GoogleImageCell : UICollectionViewCell
+
+- (void)setCellImageWithURL:(NSString *)URL;
 
 @end
